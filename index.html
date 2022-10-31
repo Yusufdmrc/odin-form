@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="img">
+      <img src="image/photo.jpg" alt="" />
+      <div class="img-logo">
+        <img class="logo" src="image/odin-lined.png" alt="" />
+        <h1>ODIN</h1>
+      </div>
+      <div class="img-credits">
+        <p>
+          Image by
+          <a href="https://unsplash.com/@marekpiwnicki">Marek Piwnicki</a>
+          from <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="text">
+        <p>
+          Fill out the form and register now to not miss the news of new events
+          and to join us!
+        </p>
+        <p>You know you want to!</p>
+      </div>
+      <div class="form">
+        <p>Let's do this!</p>
+
+        <form action="#" id="form-signup">
+          <div class="input">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name " required />
+          </div>
+          <div class="input">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name " required />
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email " required />
+          </div>
+          <div class="input">
+            <label for="phone-number">Phone Number</label>
+            <input
+              type="number"
+              name="phone-number"
+              id="phone-number "
+              minlength="11"
+              maxlength="11"
+              required
+            />
+          </div>
+          <div class="input">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password "
+              minlength="8"
+              required
+            />
+          </div>
+          <div class="input">
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password "
+              minlength="8"
+              required
+            />
+          </div>
+        </form>
+      </div>
+      <div class="submit">
+        <button type="submit" form="form-signup">Submit</button>
+        <p>Already have an account &quest;<a href="">Log in</a></p>
+      </div>
+    </div>
+  </body>
+</html>
